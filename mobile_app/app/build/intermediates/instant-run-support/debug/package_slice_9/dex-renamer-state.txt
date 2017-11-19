@@ -1,0 +1,4 @@
+#Sun Nov 19 08:36:51 EST 2017
+base.0=C\:\\Users\\Joshua\\Desktop\\plSmartPark-master\\plSmartPark-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9
+renamed.0=classes.dex
+file.0=C\:\\Users\\Joshua\\Desktop\\plSmartPark-master\\plSmartPark-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9\\classes.dex

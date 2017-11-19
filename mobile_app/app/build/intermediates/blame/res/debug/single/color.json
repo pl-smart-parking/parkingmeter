@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "C:\\Users\\Joshua\\Desktop\\plSmartPark-master\\plSmartPark-master\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_secondary_text_holo_dark.xml",
+        "source": "C:\\Users\\Joshua\\.android\\build-cache\\f74ab2f71d67d26c4444bc513e1482dde3bdf7b4\\output\\res\\color\\wallet_secondary_text_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joshua\\Desktop\\plSmartPark-master\\plSmartPark-master\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\Joshua\\.android\\build-cache\\47bf9c846b845583e1cbc51b8ae715f4611dac49\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joshua\\Desktop\\plSmartPark-master\\plSmartPark-master\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\Joshua\\.android\\build-cache\\47bf9c846b845583e1cbc51b8ae715f4611dac49\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joshua\\Desktop\\plSmartPark-master\\plSmartPark-master\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\Joshua\\.android\\build-cache\\47bf9c846b845583e1cbc51b8ae715f4611dac49\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joshua\\Desktop\\plSmartPark-master\\plSmartPark-master\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Joshua\\.android\\build-cache\\70aff5989be78baa794e7e460b6b1bd201cac340\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joshua\\Desktop\\plSmartPark-master\\plSmartPark-master\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\Joshua\\.android\\build-cache\\47bf9c846b845583e1cbc51b8ae715f4611dac49\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joshua\\Desktop\\plSmartPark-master\\plSmartPark-master\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\Joshua\\.android\\build-cache\\47bf9c846b845583e1cbc51b8ae715f4611dac49\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joshua\\Desktop\\plSmartPark-master\\plSmartPark-master\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Joshua\\.android\\build-cache\\70aff5989be78baa794e7e460b6b1bd201cac340\\output\\res\\color\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joshua\\Desktop\\plSmartPark-master\\plSmartPark-master\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Joshua\\.android\\build-cache\\70aff5989be78baa794e7e460b6b1bd201cac340\\output\\res\\color\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joshua\\Desktop\\plSmartPark-master\\plSmartPark-master\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\Joshua\\.android\\build-cache\\47bf9c846b845583e1cbc51b8ae715f4611dac49\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joshua\\Desktop\\plSmartPark-master\\plSmartPark-master\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\Joshua\\.android\\build-cache\\47bf9c846b845583e1cbc51b8ae715f4611dac49\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joshua\\Desktop\\plSmartPark-master\\plSmartPark-master\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\Joshua\\.android\\build-cache\\47bf9c846b845583e1cbc51b8ae715f4611dac49\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joshua\\Desktop\\plSmartPark-master\\plSmartPark-master\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Joshua\\.android\\build-cache\\70aff5989be78baa794e7e460b6b1bd201cac340\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joshua\\Desktop\\plSmartPark-master\\plSmartPark-master\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_primary_text_holo_light.xml",
+        "source": "C:\\Users\\Joshua\\.android\\build-cache\\f74ab2f71d67d26c4444bc513e1482dde3bdf7b4\\output\\res\\color\\wallet_primary_text_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joshua\\Desktop\\plSmartPark-master\\plSmartPark-master\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\Joshua\\.android\\build-cache\\47bf9c846b845583e1cbc51b8ae715f4611dac49\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    }
+]

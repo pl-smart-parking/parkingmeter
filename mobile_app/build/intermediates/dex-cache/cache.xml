@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_cd91e0fd6db3832626a71912913daa0d47cb8bbe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\097d4c877202ea2c82c3bd4c430dfdbbffc09a85\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c01a48f2ee46f25cdd4369e63e51f7feb6d1e10b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-8.4.0_8c2070838ab6a744dc6137eb2df114ab9ebea709.jar" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_47b643bb82e431695f835b0caf88b50f87c49649.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_1b37ecb4d89afae5bc456e3800745afc85961e75\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\f7c699a10a4944e03af767f38bdaa06f05f733b8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d20da386d8585471cd9072227beaaaab0bba14a6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appinvite-8.4.0_705e677af977cc410a523b9bcc498331473dcd94.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\47fd8b0b64d1c8e5fc6111ed2877263508a3166b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0968a767a22e2fdd36822ebbc818965d8644d638\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="951e379fb3d655987f29097b4286ae536dff2cc1">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5ccda0566f66b80bcab8a4d1a80505f0a72911df\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-8.4.0_9a508ecdaa75aba0c235420467799045eb207e0f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_502c7b6d8a2b1f57f9d190e0861a10b79173c27e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\348b48a0ec50e026c476ff1519a616549b162744\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_de477a26733a1e2715fce930eb99cf6b4d96602b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\139acb8de3b07361753f89440c3e85324211ca43\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b6410dc3bccc5fb502cb6869f16d46366e92ff4a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_e0c72abd753bcbd5382c5917547a1d033d6e53b6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\78c83d8346614e5565efeb49214d4377b177889a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9e4f5aaaabee941c43d2fccfd12355ddf14f96cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\b26529190332a6cfe3820977ee000b83146c729c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bdfb411fd8c177ab76664f8230bfce6992fefe1a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-8.4.0_308edd34826af38324cf474713e1d4c83890252d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-measurement-8.4.0_e29111312d8dea53a6d45a829b42492e8553e3fe.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\b26529190332a6cfe3820977ee000b83146c729c\output\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_adc90129523d3c6cc207ef5ebf0c3af179ef74c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\8e43198e8fa2d13c64a8e13c1ad10d41ac411aab\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_508ee663db49498e1be11e31e21d28d3f6dab174\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\efef4f6134b87a3c1c41a31f4aec2e99c7b3405c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a422ee33950eed81cf55c23e6864d0946dd8c452\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\47bf9c846b845583e1cbc51b8ae715f4611dac49\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c8d9d387f8c066fa8e702d69356c2af1f7b3dfcc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\f7d350f5b41ff0b029cb0d6792771b47dcb59a5f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_86af48a15027be406289003954ce38f95e0c3eb4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\37033bab9e79782c189a18eb7c2340ab0e44578a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4a514a321e00f0a004152184a501e129954e4b65\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_55bb670a232566a18149836988aab590162c670f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\70aff5989be78baa794e7e460b6b1bd201cac340\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_baf06f87cf6c79506ae525de6c6277dd89b275e2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-8.4.0_2f138662b6bc9bd07cf3507360aeccefda3813fc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-8.4.0_5672a71f890b014b6b73dc39f18e2612a86b6c21.jar" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-8.4.0_e2e3396c84c20e31b4710d382a0d4cca355457a3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wallet-8.4.0_40cab5978f5aedd649bd13f64044b2987fbfd437.jar" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-8.4.0_3dcc050828a86909337d9859144729b3162724e1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\18748e27ba1d9136ed6b7f39616ac42cca4948a4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_821db9dc7f20afd5a8d892c9e8b89728f3618b72\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.android.support-mediarouter-v7-23.0.0_8030d9b201440d85d73bec142538bba5d6fa458c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\61631e239853d3df38b72b89a771543e8caae84b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3e8493443cc12dbb48c99abcc933ce65f05d1010\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\8d0fd8a0c8acec84412936b3df13ee9e3fee99d0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9aad47ff1212834a3bf97c57b9b1a7fe5fc3ec0f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-8.4.0_fa1e36e7b1f8e5406b16fcb06fb0f295cc6d8a23.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.1_f1ba43d068e0fca4f8d941a59b0ca079b08b680f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\a916876623727830c95980f452d5a8caae7ac599\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_43f866f126da56bf746209e437712941c3a3b5d4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-8.4.0_c2926fa25f3960af3032b97c48f6eab3e08891f0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-8.4.0_269a7c5ef17c92a7a672583a2729f6850eafe758.jar" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-plus-8.4.0_1fbef0369b9c9b577402cac3da3ec496788f657d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\46fbe372b3249354e0dea37aa929fc3191eadea9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6bc2e9dd96ad3a638cec666a21960a9ea648676e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_8fc312534e6af9b6ca535aa9e0379dfc2f6993f8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\be96169d86838d46a1a6e1dfb8aaf69215cc1368\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_607c7b7764e03fe7a1d3ffbeadaa433032bc02c7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_383c75dff4c12a9be6796960baf5fdcb907f0b7b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\4c9d3d4625c4cfbc3e5da37c5c7ed6f6581d161d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8fb4bdc968d7056cbcbc21d5a3baad286940c8e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\b56cc73fa6477e6ec5da582236bf1d380e5c6921\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f23922bfc40c9bddae4bf8ae5a947cb01bd97adc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\00dee78dbde273ab2eb65a6a49aad5624ba86079\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_11826c2aab5688c51660a164f6721780d517799a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-8.4.0_8577a16499be71c2ee2026234147d3c7bfb7a6ed.jar" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-8.4.0_3030dc917b8aeee79dddaa68b76ee923b5bf0177.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\6156dbcfb943565d70b2df2a832f87ae2cf498cc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_09fd1df2d1f246e5f864372bfcb251735394ed30\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\4b945b5d4fddd45f4d4d3c46a176177d44a325b1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_40e55dcce90072e0c68a71563dbe746f0af3166b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-8.4.0_9e2161b32ebbc3b376f15a5b125a4213460ad077.jar" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_f1ba43d068e0fca4f8d941a59b0ca079b08b680f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\f74ab2f71d67d26c4444bc513e1482dde3bdf7b4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_37888838578fbdba979976f4b3c6186048335747\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\be96169d86838d46a1a6e1dfb8aaf69215cc1368\output\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_6d45a2f0b479e77d9a57f31ea82745f816dce2bd\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-games-8.4.0_1d9728db73eeee8b6bceb15eedd6b665229e3464.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\90e03c83c52aa9d3accf9bad1d560a63baa53633\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_37a41f188b739e2f963bad34fb885b8ffe2286c8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-8.4.0_10c6a00fb5839ee015fba769155b21f48a958233.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joshua\.android\build-cache\e457adfd53f32da6b81565700f0f30b46014e931\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_31c577c836eb12e463c6b223718ddf17e4396f24\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.4.0_e5663222880dee9ba8463f5085fbfab5cb3940c5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="C:\Users\Joshua\Desktop\plSmartPark-master\plSmartPark-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-drive-8.4.0_d30f6ae410d563aa378329a4c740f52e76818e27.jar" />
+    </item>
+
+</items>

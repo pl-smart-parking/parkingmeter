@@ -1,0 +1,7 @@
+#Sun Nov 19 02:03:14 EST 2017
+base.0=C\:\\Users\\Joshua\\Desktop\\plSmartPark-master\\plSmartPark-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_cd91e0fd6db3832626a71912913daa0d47cb8bbe
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Joshua\\Desktop\\plSmartPark-master\\plSmartPark-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_5ccda0566f66b80bcab8a4d1a80505f0a72911df\\classes.dex
+base.1=C\:\\Users\\Joshua\\Desktop\\plSmartPark-master\\plSmartPark-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_5ccda0566f66b80bcab8a4d1a80505f0a72911df
+file.0=C\:\\Users\\Joshua\\Desktop\\plSmartPark-master\\plSmartPark-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_cd91e0fd6db3832626a71912913daa0d47cb8bbe\\classes.dex
