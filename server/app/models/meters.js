@@ -8,9 +8,8 @@ var MeterSchema   = new Schema({
     gps_long: Number,
     gps_lat: Number,
     rate: Number,
-    id: Number,
-    start: Number,
-    end: Number,
+    start_time: Number,
+    end_time: Number,
     is_occupied: Boolean
 });
 

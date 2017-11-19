@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Smart Parking</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script>var gtotal;var addedTime;var text = window.location.hash.substring(1);</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Load the required components. -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://www.paypalobjects.com/api/checkout.js" data-version-4></script>
+  <script src="https://js.braintreegateway.com/web/3.25.0/js/client.min.js"></script>
+  <script src="https://js.braintreegateway.com/web/3.25.0/js/paypal-checkout.min.js"></script>
+  <script>
+      var aUrl = "http://ec2-52-203-22-58.compute-1.amazonaws.com:4343/api/lots/number/"+text;
+      var HttpClient = function() {
+    this.get = function(aUrl, aCallback) {
+        var anHttpRequest = new XMLHttpRequest();
+        anHttpRequest.onreadystatechange = function() { 
+            if (anHttpRequest.readyState == 4 && anHttpRequest.status == 200)
+                aCallback(anHttpRequest.responseText);
+        }
+
+        anHttpRequest.open( "GET", aUrl, true );            
+        anHttpRequest.send( null );
+    }
+}
+
+  </script>
+  <script>
+
+            var clientToken;
+            //Get the client token
+            $.ajax({
+                url: "http://ec2-34-196-254-78.compute-1.amazonaws.com:4343/api/client_token",
+                crossDomain: true,
+                dataType: 'text',
+                success: function() {
+                    //success loading content
+                },
+                error: function() {
+                    //error loading content
+                },
+                complete: function(response) {
+                    clientToken = response;
+                    paypalRender();
+                }
+            });
+
+            var paypalRender = function() {
+                paypal.Button.render({
+                    braintree: braintree,
+                    client: {
+                        production: 'CLIENT_TOKEN_FROM_SERVER',
+                        sandbox: clientToken
+                    },
+                    env: 'sandbox',
+                    commit: true, // This will add the transaction amount to the PayPal button
+                    payment: function (data, actions) {
+                        return actions.braintree.create({
+                        flow: 'checkout', // Required
+                        amount: gtotal.toPrecision(3), // Required
+                        currency: 'CAD', // Required
+                        enableShippingAddress: false
+                        });
+                    },
+
+                    onAuthorize: function (data, actions) {
+                        console.log("authorized");
+                        console.log('Braintree nonce:', data.nonce);
+                        var nonce = data.nonce;
+                        console.log(nonce);
+
+                        // Get the payment and buyer details
+
+                        return actions.payment.get().then(function(payment) {
+                            console.log('Payment details:', payment);
+                            console.log(nonce);
+                            $.post("http://ec2-34-196-254-78.compute-1.amazonaws.com:4343/api/checkout",
+                            {
+                                nonce: data.nonce,
+                                amount: gtotal.toPrecision(3),
+                                meter_number: text,
+                                added_time: addedTime
+                            },
+                            function (res) {
+                                $("#response").html(res);
+                            });
+                        });
+                    },
+                    // Other configuration
+                }, '#paypal-button');
+            }
+        </script>
+    <script>
+      var totalTime=0; 
+      function total(time){
+        if (time == 15){  
+          totalTime +=15;
+        }
+        else if (time == 30){
+          totalTime +=30;
+        }
+        else{
+          totalTime+=60;
+        }
+       var rate;
+        var client = new HttpClient();
+        client.get('http://ec2-34-196-254-78.compute-1.amazonaws.com:4343/api/lots/number/'+text, function(response) {
+          console.log(response);
+          var obj = JSON.parse(response);
+          console.log("WE ARE HERE");
+          rate = obj[0].real_rate;
+          console.log(rate);
+       document.getElementById('rate').innerHTML = 'The rate is  $'+ rate ; 
+       addedTime = totalTime;
+       gtotal = totalTime/60*rate;
+        document.getElementById('total').innerHTML = 'Total: $'+gtotal.toPrecision(3) +' for '+totalTime/60+' hours';
+        document.getElementById('total').display = true; 
+          });
+
+      }
+    </script>
+
+
+  <style>
+    div.group{
+      text-align: center;
+    }
+
+    p#total{        
+      text-align: center;
+    }
+
+    h1{
+      text-align:center;
+      font-size:160%;
+    }
+  
+  </style>
+</head>
+<body>
+<div>
+<input type="button" value="Back" onclick="window.location.href='http://ec2-34-196-254-78.compute-1.amazonaws.com:4343/Webpage.html'">
+</div>
+<div class="jumbotron text-center">
+  <h1>Lot</h1>
+  <p id='rate'>The time is: </p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+      <br>
+          <p style="text-align: center; font-size:160%;">How long are you staying?</label>
+          <br>
+          <br>
+           <div class="group" required >
+              <button id="quarter" type="button" class="btn btn-primary" onclick="total(15)" style="font-size:180%">+15m</button>
+              <button id="half" type="button" class="btn btn-primary" onclick="total(30)" style="font-size:180%;">+30m</button>
+              <button id="hour" type="button" class="btn btn-primary" onclick="total(60)" style="font-size:180%;">+60m</button>
+            </div>
+        <br>
+            <p style="font-size:160%;" id='total'> Total:$0</p>
+        <br>
+        <div style="text-align: center" id="paypal-button"></div>
+        
+	<span id="response"></span>
+      <br>
+    
+    <div class="col-sm-4"></div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -5,29 +5,49 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script> var parking;   </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script>
     function promptfunc(type ) {
-    var message;
-    var parking;
-    if (type == 0) {
-        message = "Lot: Please enter your lot number."
-        document.getElementById('confirm').disabled= false;
-        parking = "lot"
-    } else {
-        message = "Meter: Please enter your meter number."
-        document.getElementById('confirm').disabled= false;
-        parking = "meter"
+
+      var message;
+      if (type == 0) {
+          message = "Lot: Please enter your lot number.";
+           parking = "lot";
+           document.getElementById('confirm').disabled = false;
+      } 
+      else {
+          message = "Meter: Please enter your meter number.";
+          parking = "meter";
+          document.getElementById('confirm').disabled = false;
+      }
+      document.getElementById('prompt').innerHTML= message;
     }
-    document.getElementById('prompt').innerHTML= message;
-    document.getElementById('parking').innerHTML = parking;
-}
   </script>
-  <style>
-    p#parking{        
-  display:none;
-}
+  <script>
+    function swap() {
+    var num = document.getElementById('num').value;
+      var message;
+      console.log(num);
+      console.log(parking);
+      if (parking == "lot" && num <=99) {
+         window.location.href='http://ec2-34-196-254-78.compute-1.amazonaws.com:4343/lot.html' +'#'+ num;
+      } else if (parking == "lot" && num >99){
+      	alert("Sorry, this is not a valid lot number.");
+      	window.location.href='http://ec2-34-196-254-78.compute-1.amazonaws.com:4343/Webpage.html';
+      }
+      else if (parking =="meter" && num >=100 && num <=999){
+		window.location.href='http://ec2-34-196-254-78.compute-1.amazonaws.com:4343/meter.html' +'#'+ num;      
+	}
+	else{
+		alert("Sorry, this is not a valid meter number.");
+      	window.location.href='http://ec2-34-196-254-78.compute-1.amazonaws.com:4343/Webpage.html';
+	}
+    }
+  </script>
+  <style> 
+  	
   </style>
 </head>
 <body>
@@ -40,34 +60,26 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-    
+    	
     </div>
     <div class="col-sm-4">
-    <p id="prompt" style="text-align:center;font-size:30px">Please select a method of parking. </p>
-    <p id="parking"></p>
-    <p></p>
-    <div style="text-align:center">
-      <div class="btn-group" required>
-        <button id="lot" type="button" class="btn btn-primary" onclick="promptfunc(0)" style="font-size: 35px">Lot</button>
-        <button id="meter" type="button" class="btn btn-primary" onclick="promptfunc(1)" style="font-size: 35px">Meter</button>
-      </div> 
-    </div>
-      <br>
-     
-      <div style="text-align:center;font-size:35px">
-        <input id="num" 
-               type="number" 
-               step="5"
-               min="0"
-               max="9999"
-               pattern="[0-9]" 
-               ></input> 
-               </div>
-      <br>
-      
-      <div style="text-align:center;font-size:26px">
-      <input id="confirm" type="submit" class="btn btn-info" value="Submit Button" onclick="console.log(document.getElementById('num').value); console.log(document.getElementById('parking').innerHTML);" disabled style="font-size: 35px"> </input>
+    <p style="text-align: center; font-size:160%;" id="prompt">Please select a method of parking. </p>
+    <div style="text-align: center; font-size: 45">
+      <div class="btn-group" style="margin:5px 10 10px 0;">
+        <button style="text-align: center;font-size:320%;" id="lot" type="button" class="btn btn-primary" onclick="promptfunc(0)">Lot</button>
+        <button style="text-align: center;font-size:320%;" id="meter" type="button" class="btn btn-primary" onclick="promptfunc(1)">Meter</button>
       </div>
+      </div>
+      <br>
+      <br>
+          <div style="text-align: center">
+      <input style= "font-size:180%" size="25" id="num" type="number" min ="0" step="1" placeholder="0"></input>
+      </div>
+      <br>
+      <br>
+      <div style="text-align: center">
+      <input id='confirm' style="text-align: center; font-size:320%;" type="submit" class="btn btn-info" value="Submit Button" onclick="swap()" disabled='true'> </input>
+    </div>
     </div>
     <div class="col-sm-4">
     

@@ -11,7 +11,7 @@
             var clientToken;
             //Get the client token
             $.ajax({
-                url: "http://ec2-52-203-22-58.compute-1.amazonaws.com:1337/api/client_token",
+                url: "http://ec2-34-196-254-78.compute-1.amazonaws.com:4343/api/client_token",
                 crossDomain: true,
                 dataType: 'text',
                 success: function() {
@@ -55,10 +55,11 @@
                         return actions.payment.get().then(function(payment) {
                             console.log('Payment details:', payment);
                             console.log(nonce);
-                            $.post("http://ec2-52-203-22-58.compute-1.amazonaws.com:1337/api/checkout",
+                            $.post("http://ec2-34-196-254-78.compute-1.amazonaws.com:4343/api/checkout",
                             {
                                 nonce: data.nonce,
-                                amount: 3.00
+                                amount: 3.00,
+                                meter_number: 12
                             },
                             function (res) {
                                 $("#response").html(res);
