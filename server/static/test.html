@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <!-- Load the required components. -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://www.paypalobjects.com/api/checkout.js" data-version-4></script>
+        <script src="https://js.braintreegateway.com/web/3.25.0/js/client.min.js"></script>
+        <script src="https://js.braintreegateway.com/web/3.25.0/js/paypal-checkout.min.js"></script>
+
+        <script>
+
+            var clientToken;
+            //Get the client token
+            $.ajax({
+                url: "http://ec2-52-203-22-58.compute-1.amazonaws.com:1337/api/client_token",
+                crossDomain: true,
+                dataType: 'text',
+                success: function() {
+                    //success loading content
+                },
+                error: function() {
+                    //error loading content
+                },
+                complete: function(response) {
+                    clientToken = response;
+                    paypalRender();
+                }
+            });
+
+            var paypalRender = function() {
+                paypal.Button.render({
+                    braintree: braintree,
+                    client: {
+                        production: 'CLIENT_TOKEN_FROM_SERVER',
+                        sandbox: clientToken
+                    },
+                    env: 'sandbox',
+                    commit: true, // This will add the transaction amount to the PayPal button
+                    payment: function (data, actions) {
+                        return actions.braintree.create({
+                        flow: 'checkout', // Required
+                        amount: 3.00, // Required
+                        currency: 'CAD', // Required
+                        enableShippingAddress: false
+                        });
+                    },
+
+                    onAuthorize: function (data, actions) {
+                        console.log("authorized");
+                        console.log('Braintree nonce:', data.nonce);
+                        var nonce = data.nonce;
+                        console.log(nonce);
+
+                        // Get the payment and buyer details
+
+                        return actions.payment.get().then(function(payment) {
+                            console.log('Payment details:', payment);
+                            console.log(nonce);
+                            $.post("http://ec2-52-203-22-58.compute-1.amazonaws.com:1337/api/checkout",
+                            {
+                                nonce: data.nonce,
+                                amount: 3.00
+                            },
+                            function (res) {
+                                $("#response").html(res);
+                            });
+                        });
+                    },
+
+
+
+                    // Other configuration
+                }, '#paypal-button');
+            }
+        </script>
+    </head>
+    <body>
+        <h1>PayPal Test</h1>
+        
+        <div id="paypal-button"></div>
+
+        <span id="response"></span>
+        
+    </body>
+</html>
